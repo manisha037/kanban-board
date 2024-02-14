@@ -1,0 +1,53 @@
+:root {
+  --dark-color: rgb(180, 14, 14);
+  --light-color: white;
+  --background-color: #eeeeee;
+  --tasks-color: rgb(187 216 226);
+  --primary-button: black;
+  --secondry-button: #a9c4bb;
+  --primary-text-color: black;
+  --secondry-text-color: white;
+  --primary-border-color: #3ec8bc;
+  --form-color: #eee;
+  --input-border: #625c66;
+  --checkbox-color: #d1866c;
+  --border-color: #d1866c;
+  --selected-color: rgb(201 201 201);
+  --danger-button: lightcoral;
+  --effect-popup-color: rgba(0, 0, 0, 0.5);
+  --dark-light: rgb(223, 227, 231);
+  --main-color: #3ec8bc;
+}
+
+[data-theme="dark"] {
+  --dark-color: black;
+  --light-color: white;
+  --leftside-color: #0a0b0d;
+  --header-color: #eee;
+  --header-menu-color: rgb(64 77 85);
+  --primary-button: #3ec8bc;
+  --main-color: #3ec8bc;
+  --secondry-button: #d8dbda;
+  --primary-text-color: white;
+  --secondry-text-color: black;
+  --form-color: #1e1f23;
+  --background-color: #1e1f23;
+  --tasks-color: rgb(201 201 201 / 30%);
+  --effect-popup-color: rgba(61, 61, 61, 0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+input,
+textarea,
+select,
+option {
+  background-color: transparent;
+}
