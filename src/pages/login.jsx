@@ -123,8 +123,8 @@ const Login = () => {
                                 type="text"
                                 placeholder="Enter Email"
                                 required
-                                onChange={handleChangeemail}
-                                value={email}
+                                onChange={{}}
+                                value={"deomanisha6398@gmail.com"}
                             /><br />
                             <input className="password"
                                 name="password"
